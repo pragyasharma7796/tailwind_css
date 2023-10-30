@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/
+all.min.css" rel="stylesheet">
+    <title>Task 3</title>
+</head>
+<body>
+    <div class="grid h-screen grid-cols-12">
+        <div class="col-span-2 bg-black text-gray-500   flex-col relative">
+            <div class="font-sans text-center ">
+                <h1 class="text-2xl font-bold mb-3">DashBoard</h1>
+            </div>
+            <div class="ml-5">
+                <ul class="">
+                    <li class="hover:bg-slate-800 hover:text-gray-100">
+                       <button><i class="fas fa-chart-pie text-xl"></i><span class="pl-1"> DashBoard</span> </button>
+                    </li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100">
+                        <button><i class="fas fa-users text-xl"></i><span class="pl-1">Team</span> </button> 
+                    </li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-folder text-xl"></i><span class="pl-1"> Projects</span></button> </li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-calendar-alt text-xl"></i><span class="pl-1">Calender</span></button></li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button> <i class="fas fa-file-alt text-xl"></i><span class="pl-1">Documents</span></button></li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-clipboard-check text-xl"></i><span class="pl-1">Reports</span></button></li>
+                </ul>
+            </div>
+            <div class="absolute inset-x-0 bottom-0">
+                <p class="ml-3">Yours Teams</p>
+                <ul class="ml-3 mb-3">
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-users "></i><span class="pl-1"> PW Skills</span></button></li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-users "></i><span class="pl-1">PW Labs</span> </button></li>
+                    <li class="hover:bg-slate-800 hover:text-gray-100"><button><i class="fas fa-users "></i><span class="pl-1">PW IOI</span></button></li>
+                 </ul>
+            </div>
+
+        </div>
+        <div class="col-span-10  bg-gray-300 ">
+
+            <header class="flex justify-between items-center bg-white py-4 px-6 shadow-md m-2  ">
+                <div class="flex items-center">
+                <i class="fas fa-user-circle text-xl"></i>
+                <span class="ml-2 text-lg ">Profile</span>
+                </div>
+                <div class="flex space-x-4">
+                <i class="fas fa-search text-xl"></i>
+                <i class="fas fa-bell text-xl"></i>
+                </div>
+                </header>
+            
+        </div>
+    </div>
+</body>
+</html>
